@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+#admin_login_container{
+    height: 100vh;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+}
+   
+h1{
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+}
+h1:hover{
+    text-decoration: underline;
+    text-decoration-color: whitesmoke;
+    cursor:pointer;
+}
+#form-div{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+
+#cross_icon{
+    margin-left: 95%;
+    font-size: 60px;
+}
+label{
+    display: block;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+}
+#select_p{
+    font-size: 20px;
+}
+#select_course{
+    width: 50%;
+    height: 50px;
+
+}
+.r-input{
+    width: 80%;
+    height: 50px;
+    text-indent: 6px;
+    font-size: 15px;
+    color: black;
+    border: 2px solid grey;
+    margin-bottom: 10px;
+}
+.r-input ::placeholder
+{
+    background-color: white;
+}
+
+#class_form{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 12px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#student_form{
+    border: 2px solid rgb(228, 228, 232);
+    border-radius: 12px;
+    text-align: center;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+button{
+    margin: 10px 0;
+}
+
+#homePage
+{
+    border: 2px solid black;
+    margin: 10px;
+}
+
+#student_info
+{
+    display: block;
+    margin: 10px auto;
+}
+#front_card{
+    display: block;
+    margin: 10px auto;
+}
+
+.h1{
+    color: rgb(255, 0, 0);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0p 20px 10px 0px;
+}
+
+.images{
+    display: flex;
+    flex-direction: column;
+}
+#logo{
+    width: 250px;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#student_pic
+{
+    width: 200px;
+    height: 100px;
+    margin-top: 30px;
+}
+h3,h4,h5{
+    color: black;
+    font-style: italic;
+    margin-top: 10px;
+}
+h4{
+    border: 2px solid black;
+}
+
+
+#std_label{
+    color: rgb(0, 0, 0);
+}
+p{
+    color: rgb(0, 0, 4);
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
